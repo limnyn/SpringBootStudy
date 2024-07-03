@@ -4,7 +4,6 @@ import com.naver.shopping.AppConfig;
 import com.naver.shopping.member.Grade;
 import com.naver.shopping.member.Member;
 import com.naver.shopping.member.MemberService;
-import com.naver.shopping.member.MemberServiceImpl;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
