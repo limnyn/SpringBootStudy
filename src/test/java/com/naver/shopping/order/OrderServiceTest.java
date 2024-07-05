@@ -7,7 +7,7 @@ import com.naver.shopping.member.MemberService;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class OrderServiceTest {
+class OrderServiceTest {
     /**
      * 테스트 파일의 이름은 "OrderServiceTest"로 할게요~
      * 테스트 함수의 이름은 "주문하기"로 해주시구요
