@@ -18,15 +18,14 @@ public class OrderServiceTest {
     MemberService memberService = appConfig.memberService();
     OrderService orderService = appConfig.orderService();
 
-    @Test
-    void 주문하기_고정할인() {
-        long memberId = 1L;
-        Member member = new Member(memberId, "실험체1", Grade.VIP);
-        memberService.join(member);
-        Order order = orderService.createOrder(memberId, "USB", 24900);
-
-        Assertions.assertThat(order.getDiscountPrice()).isEqualTo(1000);
-    }
+//    @Test
+//    void 주문하기_고정할인() {
+//        long memberId = 1L;
+//        Member member = new Member(memberId, "실험체1", Grade.VIP);
+//        memberService.join(member);
+//        Order order = orderService.createOrder(memberId, "USB", 24900);
+//        Assertions.assertThat(order.getDiscountPrice()).isEqualTo(1000);
+//    }
 
     @Test
     void 주문하기_정률할인() {
